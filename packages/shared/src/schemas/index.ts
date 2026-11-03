@@ -92,3 +92,4 @@ export const createProjectSchema = z.object({
   scriptStyle: scriptStyleSchema.default("roman"),
   fixtureId: z.string().optional(),
 });
+

@@ -96,3 +96,4 @@ pnpm dev
 ```
 Open [http://localhost:3000](http://localhost:3000) to view the Phase 0 verification dashboard.
 Check [http://localhost:3000/api/health](http://localhost:3000/api/health) for JSON health status.
+

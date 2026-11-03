@@ -27,3 +27,4 @@ export function ensureDirectory(dirPath: string): void {
     fs.mkdirSync(resolved, { recursive: true });
   }
 }
+
