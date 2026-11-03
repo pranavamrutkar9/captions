@@ -1,0 +1,22 @@
+{
+  "name": "code-mixed-captions-root",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "start": "pnpm --filter web start",
+    "lint": "pnpm --filter web lint",
+    "typecheck": "pnpm --filter @code-mixed-captions/shared typecheck && pnpm --filter web typecheck",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}
